@@ -1,0 +1,7 @@
+:host {
+    @apply px-2 py-4 flex flex-col;
+}
+
+.active-link::before {
+    @apply content-[''] absolute rounded-l bg-blue-700 w-1 h-full left-0 top-0
+}
