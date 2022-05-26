@@ -1,0 +1,78 @@
+<div class="flex">
+  <div class="flex">
+    <input
+      class="border rounded pl-3 pr-8 py-2 w-52 text-sm hover:bg-gray-50"
+      type="text"
+      placeholder="Search this board"
+      aria-label="Search this board" />
+
+    <span class="self-center relative -left-7">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        viewBox="0 0 20 20"
+        fill="currentColor">
+        <path
+          fill-rule="evenodd"
+          d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+          clip-rule="evenodd" />
+      </svg>
+    </span>
+  </div>
+
+  <div class="flex items-center">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="2">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+    </svg>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6 ml-3"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="2">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+    </svg>
+  </div>
+</div>
+
+<div class="flex items-center">
+  <label for="group-by-button" class="text-xs uppercase whitespace-nowrap"
+    >Group by</label
+  >
+
+  <button
+    id="group-by-button"
+    type="button"
+    class="ml-2 inline-flex justify-center w-full rounded border px-3 py-2 bg-white text-sm text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+    id="menu-button"
+    aria-expanded="true"
+    aria-haspopup="true">
+    None
+
+    <svg
+      class="-mr-1 ml-2 h-5 w-5"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      aria-hidden="true">
+      <path
+        fill-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clip-rule="evenodd" />
+    </svg>
+  </button>
+</div>
